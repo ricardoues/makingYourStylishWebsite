@@ -1,0 +1,58 @@
+h1 {
+
+  background-color: black;
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+
+
+}
+
+h2 {
+
+  background-color: #f8981C;
+	color: white;
+	font-size: 25px;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+
+}
+
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+
+.row {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 100%;
+}
+
+
+
+.description {
+            font-family: "Freemono", monospace;
+            font-size: 150%;
+            max-width: 705px;
+}
+
+.image > img {
+	border: 2px black dotted;
+        margin-left: 20px;
+}
